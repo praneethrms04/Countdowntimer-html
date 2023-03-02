@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CounDown Timer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="./styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <h1>Set Your  <span>Countdown Timer </span>...!</h1>
+        <div id="input">
+          <button type="button" id="submit">Select Date here <img src="./images/triangle.png  " alt="" /></button>
+          <input type="datetime-local" id="dateTime" class="select-date" />
+        </div>
+        <div class="launch-time">
+          <div>
+            <p id="days">00</p>
+            <span>Days</span>
+          </div>
+          <div>
+            <p id="hours">00</p>
+            <span>Hours</span>
+          </div>
+          <div>
+            <p id="minutes">00</p>
+            <span>Minutes</span>
+          </div>
+          <div>
+            <p id="seconds">00</p>
+            <span>Seconds</span>
+          </div>
+        </div>
+      </div>
+      <img src="./images/rocket.png" alt="rocket" class="rocket" />
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
